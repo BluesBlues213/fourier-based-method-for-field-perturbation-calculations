@@ -8,10 +8,10 @@ In MRI, the Fourier transform of Maxwell’s Equations (Marques and Bowtell, 200
 [A]= sus_tensor(PHI,THETA,B0,sus, AA,BB,CC)
 
 Inputs (in spherical coordinates where applicable):
-Phi, 0 --> pi/2, azimuthal angle of the applied field to the cylinder
-Theta, 0 --> pi/2, orientation or polar angle of the applied field to longitudinal axis of the cylinder
-B0 - applied field strength, Tesla
-Sus - magnetic susceptibility in ppb
+  Phi, 0 --> pi/2, azimuthal angle of the applied field to the cylinder
+  Theta, 0 --> pi/2, orientation or polar angle of the applied field to longitudinal axis of the cylinder
+  B0 - applied field strength, Tesla
+  Sus - magnetic susceptibility in ppb
 AA,BB,CC - diagonals entries to a 3x3 matrix, denoting the susceptibility tensor 
 For example, [1,1,1] denotes isotropic susceptibility | [1,-½,-½ ] denotes radial anisotropy of myelin. 
 
