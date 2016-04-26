@@ -15,7 +15,7 @@ Sus - magnetic susceptibility in ppb
 AA,BB,CC - diagonals entries to a 3x3 matrix, denoting the susceptibility tensor  
 For example, [1,1,1] denotes isotropic susceptibility | [1,-½,-½ ] denotes radial anisotropy of myelin. 
 
-**Outputs**  
+**Outputs:**  
 Field perturbation from cylinder in 3D. Output image is an orthogonal cross section about longitudinal axis of the cylinder. 
 
 # Results
