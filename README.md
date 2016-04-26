@@ -7,7 +7,7 @@ In MRI, the Fourier transform of Maxwell’s Equations (Marques and Bowtell, 200
 # Input & Output 
 [A]= sus_tensor(PHI,THETA,B0,sus, AA,BB,CC)
 
-Inputs (in spherical coordinates where applicable):
+  Inputs (in spherical coordinates where applicable):
 Phi, 0 --> pi/2, azimuthal angle of the applied field to the cylinder
 Theta, 0 --> pi/2, orientation or polar angle of the applied field to longitudinal axis of the cylinder
 B0 - applied field strength, Tesla
